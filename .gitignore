@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 运行产物
+output/
+*.xlsx
+*.xls
+~$*
+
+# 原始测试数据一律不入库（示例数据单独放 data/sample/）
+data/raw/
+
+# 本地配置与临时文件
+*.log
+.汇总状态.json
+.env
